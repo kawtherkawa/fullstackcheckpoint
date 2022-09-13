@@ -1,0 +1,29 @@
+*{
+    font-family:"Roboto" ,sans-serif;
+    font-weight: lighter;
+}
+.main-header.top-header{
+   background-color: white;
+   position: fixed;
+   top: 0;
+}
+.nav-logo{
+    width: 250px; 
+    height: 30px;
+    padding: 1rem 30px 1rem 30px; 
+    cursor: pointer;
+}
+.main-header{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
+ .section-header{
+    
+    position:relative;
+    max-width: 100%;
+    margin: auto;
+
+ }
