@@ -1,0 +1,65 @@
+*{
+    font-family:"Roboto" ,sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#bb0b0b;
+    color: beige;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    background-color:#865b0b;
+height: 60px;
+    justify-content: center;
+   
+}
+.logo h1{
+   
+    color:white;
+    size: 10rem;
+    font-weight:bold;
+}
+
+
+.main_product{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+margin-top: 60px;
+    justify-content: center;
+}
+.cat{
+    display: flex;
+    justify-content:space-between;
+    background-color:white;
+    border: 3px solid black;
+    width: 60%;
+    margin: 20px 0px;
+
+}
+.icon img{
+    height: 20px;
+    width: 20px;
+}
+
+.cat > img{
+    width: 200px;
+    height: 200px;
+}
+.icon{
+    margin: 30px 10px;
+    display: flex;
+}
+
+.cat h5{
+    font-weight: 900;
+    color:black;
+    font-size: 25px;
+}
