@@ -8,7 +8,7 @@ console.log(btnsfavs);
  for( let btnfav of btnsfavs )
  {
     btnfav.addEventsListner("click", function(){
-    if( btnfav.style.color=="black"){
+    if( btnfav.style.backgroundcolor=="black"){
         btnfav.style.color="red"
     }
     else{

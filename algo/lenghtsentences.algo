@@ -1,0 +1,13 @@
+ALGORITHM Sentences
+VAR
+str:String:="hello word";
+  count:Integer:=0;
+  BEGIN
+    FOR i in str DO
+        IF (str.charAt[i]!='') THEN
+            count++;
+        END_IF
+    END_FOR
+     write(count);
+END
+

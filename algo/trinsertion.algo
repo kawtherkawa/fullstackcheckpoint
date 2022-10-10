@@ -1,0 +1,17 @@
+PROCEDURE Tri inssertion(tab: ARRAY_OF Integer[length] )
+VAR
+n:=tab.length
+temp:INTEGER
+
+BEGIN
+ FOR i FROM 0 TO  n   DO //i<n
+   temp=tab[i]
+   j=i-1
+   WHILE (j>=0 &&tab[j]>temp) DO
+  tab[j+1]=tab[j]
+  j--
+   END_WHILE
+tab[j+1]=temp
+ END_FOR
+ END 
+

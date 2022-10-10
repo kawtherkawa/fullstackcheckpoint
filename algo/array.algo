@@ -1,0 +1,16 @@
+ALGORITHM somme
+VAR
+tab1:Integer[6];
+tab2: Integer[7];
+count:=0;
+n1:Integer:=tab1.length;
+n2:=tab2.length;
+BEGIN
+FOR (i=0;i<n1;i++) DO
+    FOR (j=0;i<n2;j++) DO
+       if(tab1[i]==tab2[j])
+       count= tab1[i]+tab2[j];
+    END_FOR
+END_FOR
+write(count);
+END

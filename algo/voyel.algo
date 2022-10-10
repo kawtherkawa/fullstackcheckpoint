@@ -1,0 +1,12 @@
+ALGORITHM nbr voyel
+VAR
+str:String:="My first Workshop" ;
+vowles:CHAR:=['a','o'.'i','u','e']
+BEGIN
+   for i in str DO
+   if i in vowles DO
+   count++
+   END_IF
+   END_FOR
+   write(count) 
+END
